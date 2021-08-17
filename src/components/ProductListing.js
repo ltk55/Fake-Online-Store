@@ -23,8 +23,12 @@ const ProductPage = () => {
   console.log(products);
 
   return (
-    <div className="row">
-      <ProductComponent />
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <ProductComponent />
+        </div>
+      </div>
     </div>
   );
 };
