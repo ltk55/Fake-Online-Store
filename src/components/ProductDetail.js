@@ -35,15 +35,16 @@ const ProductDetails = () => {
           <div>
             <div>
               <div>
-                <img src={image} alt="product-img" />
+                <img className="p-5" src={image} alt={title} />
               </div>
               <div>
-                <h1>{title}</h1>
+                <h3 className="pb-1">{title}</h3>
+                <p className="pb-3">{description}</p>
                 <h2>
                   <span>${price}</span>
                 </h2>
-                <h3>{category}</h3>
-                <p>{description}</p>
+                <h3 className="badge badge-secondary p-1">{category}</h3>
+
                 <div>
                   <div>
                     <i></i>

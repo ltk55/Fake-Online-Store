@@ -14,14 +14,12 @@ const ProductComponent = () => {
             <img
               src={image}
               alt={title}
-              className="bd-placeholder-img card-img-top"
+              className="bd-placeholder-img card-img-top p-1"
             />
             <div className="card-body">
               <h5 className="card-title pb-3 font-weight-bold">{title}</h5>
-              <div className="text-secondary pb-1">$ {price}</div>
-              <span className="card-text badge badge-secondary p-2">
-                {category}
-              </span>
+              <h6 className="pb-1">$ {price}</h6>
+              <span className="badge badge-secondary p-1">{category}</span>
             </div>
           </Link>
         </div>
