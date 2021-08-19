@@ -18,7 +18,7 @@ const ProductPage = () => {
       dispatch(setProducts(response.data));
     };
     fetchProducts();
-  }, []);
+  }, [dispatch]);
 
   console.log(products);
 
